@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    background-color: blueviolet !important; 
+    color: aquamarine;
+}
+h1{
+    color: blue;
+    font-size: 60px;
+}
+
+li{
+    padding: 10px 10px;
+}

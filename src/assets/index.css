@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.submit{
+    @apply bg-green-500 px-5 py-1;
+    @apply hover:bg-green-400;
+    @apply active:bg-red-500;
+}
+table, th, td{
+    @apply border-2 border-gray-500;
+}
+th, td{
+    @apply py-2 px-4 text-center;
+
+}
+button{
+    
+@apply px-4 py-2 text-white;
+}
+
+.edit{
+    @apply bg-green-600 rounded-l-lg;
+} 
+
+.remove{
+    @apply bg-red-500 rounded-r-lg;
+}
+
+tr:hover td{
+    @apply bg-slate-300;
+}
+
+h1{
+    font-size: 32px;
+}
+h2{
+    font-size: 28px;
+}
+h3{
+    font-size: 24px;
+}
