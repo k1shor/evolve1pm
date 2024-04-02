@@ -6,6 +6,12 @@ import Register from "./pages/Register"
 import Cart from "./pages/Cart"
 import Products from "./pages/Products"
 import Contact from "./pages/Contact"
+import Counter from "./components/Counter"
+import Data from "./components/Data"
+import Display from "./components/Display"
+import Product from "./pages/Product"
+import MyCounter from "./components/reducers/MyCounter"
+import GameDisplay from "./components/reducers/GameDisplay"
 
 const MyRoutes = () => {
     return (
@@ -19,6 +25,18 @@ const MyRoutes = () => {
                     <Route path="products" element={<Products />} />
                     <Route path="cart" element={<Cart />} />
                     <Route path="contact" element={<Contact />} />
+
+
+                    <Route path="counter" element={<Counter/>}/>
+                    <Route path="data" element={<Data/>}/>
+
+                    <Route path="display" element = {<Display/>}/>
+                    <Route path="product/:id" element = {<Product/>}/>
+
+
+                    <Route path="mycounter" element = {<MyCounter/>}/>
+                    <Route path="game" element = {<GameDisplay/>} />
+
 
                 </Route>
             </Routes>
